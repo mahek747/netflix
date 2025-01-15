@@ -15,10 +15,6 @@ const userSchema = mongoose.Schema({
 		type: String,
 		required: true,
 	},
-	image: {
-		type: String,
-		default: "",
-	},
 	searchHistory: {
 		type: Array,
 		default: [],
